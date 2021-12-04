@@ -10,7 +10,7 @@ def scrollToDown(driver,item):
 	driver.execute_script("""
 	(function () {
 	var y = 0;
-	var step = 30;
+	var step = 30;·
 	window.scroll(0, 0);
 	function f() {
 	if (y < document.body.scrollHeight) {
